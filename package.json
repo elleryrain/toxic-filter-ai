@@ -1,0 +1,15 @@
+{
+  "name": "toxic-filter-ai",
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
+    "@tensorflow/tfjs-node": "^4.22.0"
+  },
+  "scripts": {
+    "dev": "tsx ./src/train.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
