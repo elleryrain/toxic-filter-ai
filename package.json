@@ -6,6 +6,7 @@
     "@tensorflow/tfjs-node": "^4.22.0"
   },
   "scripts": {
+    "predict": "tsx ./src/predict.ts",
     "dev": "tsx ./src/train.ts"
   },
   "devDependencies": {
